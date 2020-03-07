@@ -77,7 +77,7 @@ body, html {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .MyBarrita a:not(:first-child) {display: none;}
   .MyBarrita a.icon {
     float: right;
@@ -396,6 +396,42 @@ select:focus {
     .tabs .tab-2:last-child [type="radio"]:checked + div {
       margin-left: -100%; }
 
+/**FAQ**/
+.FAQ {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url(../imagenes/halflife_alyx_10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  padding-bottom: 40PX;
+  padding-top: 40px;
+}
+
+.FAQ h1 {
+  margin: 0%;
+  color: rgb(163, 52, 18);
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.FAQ h2 {
+  margin: 0%;
+  color: rgb(182, 117, 55);
+  text-align: center;
+  padding: 40px;
+}
+
+.FAQ p {
+  margin: 30px;
+  color: white;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-shadow: 8px 8px 8px rgb(0, 0, 0)
+}
+
 /******************* FOOTER *******************/
 .footer {
   background-color: black;
@@ -420,3 +456,18 @@ select:focus {
   text-align: center;
   text-shadow: 8px 8px 8px rgb(0, 0, 0)
 }
+
+/**Tablas comparativas**/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 60px;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {background-color: #f2f2f200;}

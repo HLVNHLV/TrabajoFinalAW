@@ -6,10 +6,12 @@
     <title>Realidad Virtual</title>
     <link href="CSS/estilo.css" rel="stylesheet">
     <script type="text/javascript" src="JS/JavaScript.JS"></script>
+    <link href="imagenes/sticker.png" rel="icon">
     <link href="Imagenes/" rel="icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
   <header class="heroimg" id="hero">
@@ -34,7 +36,7 @@
       </p>
     </div>
     <div class="separadorcuerpo"></div>
-    <div class="VR">
+    <div class="VR" id="VR">
       <h1>Características de la Realidad Virtual</h1>
       <h2>
         ¿Qué es un HMD?
@@ -91,7 +93,7 @@
       <img src="imagenes/Glare.jpg" class="centrado">
       <img src="imagenes/Sweet.png" class="centrado">
     </div>
-    <div class="PCVR"><!--PCVR-->
+    <div class="PCVR" id="PC"><!--PCVR-->
       <h1>
         PCVR
       </h1>
@@ -156,7 +158,7 @@
           salvo una excepción no recomiendo los Stand Alone
         </p>
     </div>
-    <DIV class="Quest">
+    <DIV class="Quest" id="Quest">
       <h1>Oculus Quest</h1>
       <p>Las Oculus Quest son un visor autónomo con 6DOF y dos controladores con tracking, todo esto propulsado por el Snapdragon 835 junto a unos poco impresionantes 4GB
         de RAM (compartida) y 64GB de almacenamiento, algo obsoleto para lo que cuesta, pero funciona bien.
@@ -174,11 +176,33 @@
       </p>
       <h2>Resúmen</h2>
       <p>Si no tienes PC lo recomiendo mucho, es un visor con el que puedes jugar a un gran catálogo a un buen precio, pero en caso de que quieras jugar en PC recomiendo fuertemente las Rift S</p>
+      <table>
+        <tr>
+          <th>Resolución</th>
+          <th>Hz</th>
+          <th>CPU</th>
+          <th>RAM</th>
+          <th>ROM</th>
+          <th>fOV</th>
+          <th>tracking</th>
+          <th>Pantalla</th>
+        </tr>
+        <tr>
+          <td>1440 x 1600 (x2)</td>
+          <td>72Hz</td>
+          <td>Snapdragon 835</td>
+          <td>4GB</td>
+          <td>64GB-128GB</td>
+          <td>~95º</td>
+          <td>Inside-out</td>
+          <td>Oled Pentile</td>
+        </tr>
+      </table>
       <div class="video-container">
         <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/i7aQuq7yWns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </DIV>
-    <div class="WMR">
+    <div class="WMR" id="WMR">
       <h1>Windows Mixed Reality</h1>
       <p>Windows Mixed Reality es un estándar que sacó Microsoft para crear visores de Realidad Virtual, ellos crean un visor de referencia y el software y las empresas que quieran 
         pueden usar ese estándar para desarrollar sus visores a bajo coste.
@@ -204,8 +228,47 @@
       </p>
       <h2>Resúmen</h2>
       <p>Unos visores a un excelente precio con unas prestaciones aceptables, pero solo lo recomiendo a gente sin dinero, principalmente estudiantes.</p>
+      <table>
+        <tr>
+          <th>Resolución</th>
+          <th>Hz</th>
+          <th>fOV</th>
+          <th>tracking</th>
+          <th>Pantalla</th>
+        </tr>
+        <tr>
+          <td>1440 x 1440 (x2)</td>
+          <td>90Hz</td>
+          <td>~95º</td>
+          <td>Inside-out (x2)</td>
+          <td>LCD C</td>
+        </tr>
+      </table>
       <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/VCqfs6yg2XU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="FAQ" id="FAQ">
+      <h1>FAQ</h1>
+      <h2>¿La VR marea?</h2>
+      <p>Respuesta corta : No</p>
+      <P>Respuesta media : Lo que te marea no es la VR, es el moverte estando quieto</P>
+      <p>Respuesta larga :</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NcSdPbL-cIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <h2>¿Necesito un PC potente?</h2>
+      <p>Bueno, una GTX 1660 es de las gráficas mas malas que tiene Nvidia, y el 1600 AF a 90 euros igual, yo no llamaría a eso un equipo "potente" 
+        así que no, no hace falta un PC potente.
+      </p>
+      <h2>No hay juegos</h2>
+      <p>Half Life Alyx, Lone Echo, Lone echo 2, Stormland, Asgard wrath, Artika 1, red matter, After the fall, Beatsaber, Blade and sorcery, The forest, Untill you fall, wilson´s heart, In Death, Apex construct, Contractors, Onward, Pavlov, Project cars 2, Space junkies, Robo recall, Espire 1,Gorn, Vader Inmortal 1/2, Boneworks, The walking dead saints and sinners, the walking dead onslaught, Arizona shunshine, no man's sky, Job simulator, Hellsplit, Arena VR, Moss, Rec room, Orbus VR</p>
+      <h2>Los juegos son aburridos</h2>
+      <p>Este soy yo</p>
+      <img src="imagenes/SteamVR Horas.png" class="centrado">
+      <p>Vídeo random</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3ehSPtWoiuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </main>
@@ -217,15 +280,22 @@
     <p>
       Discord : anibal el trapito#9849
     </p>
+    <P>Disqus : disqus.com/by/Hlvnhlv/</P>
+    <p>SteamID : https://steamcommunity.com/id/hlvnhlv/</p>
     <p>
       Teléfono : 952 626 100
     </p>
+    <p>Oficinas : Monte Eyjafjallajökull, al oeste de Mýrdalsjökull, Islandia</p>
+    <P>Código postal : 666666</P>
   </footer>
   <nav class="MyBarrita" id="myTopnav">
-    <a href="#hero" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#about">About</a>
-    <a href="#contacto">Contactar</a>
+    <a href="#hero" class="active">Inicio</a>
+    <a href="#VR">Características</a>
+    <a href="#PC">PC o StandAlone</a>
+    <a href="#Quest">Quest</a>
+    <a href="#WMR">WMR</a>
+    <a href="#FAQ">FAQ</a>
+    <a href="#contacto">Contactos</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
