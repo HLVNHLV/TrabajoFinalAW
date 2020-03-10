@@ -7,12 +7,12 @@ Cosas que hacer:
 
 Correciones
 -Arreglar JS
--A veces en la zona de contacto se ve blanco (no ha vuelto a pasar)
--Arreglar las tablas (50%)
+-A veces en la zona de contacto se ve blanco (Aparentemente arreglado)
+-Arreglar las tablas (70%)
 
 Añadidos
 -Agregar galería 
--Agregar estilos (parcialmente)
+-Agregar estilos (90%)
 
 Contenido
 -Agregar HTC VIVE
