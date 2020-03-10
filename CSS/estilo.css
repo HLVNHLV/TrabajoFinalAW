@@ -8,6 +8,10 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 130%;
+}
 
 .heroimg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url(../imagenes/CV21.jpg);
@@ -435,7 +439,7 @@ select:focus {
 /******************* FOOTER *******************/
 .footer {
   background-color: black;
-  height: 30%;
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -460,14 +464,80 @@ select:focus {
 /**Tablas comparativas**/
 table {
   border-collapse: collapse;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  margin: 60px;
+  table-layout: fixed;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
-th, td {
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+  color: white;
+}
+
+table tr {
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
   text-align: center;
-  padding: 8px;
-  color: #ffffff;
+  color: white;
 }
 
-tr:nth-child(even) {background-color: #f2f2f200;}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 750px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+    color: white;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+/**Slideshow**/
