@@ -13,6 +13,16 @@ p {
   font-size: 130%;
 }
 
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 170%;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 170%;
+}
+
 .heroimg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url(../imagenes/CV21.jpg);
   height: 100%;
@@ -330,6 +340,41 @@ p {
 }
 
 .WMR p {
+  margin: 0%;
+  color: white;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-shadow: 8px 8px 8px rgb(0, 0, 0)
+}
+
+/**Dónde informarse?**/
+.Informarse {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(../imagenes/informarse.png); /**Es feillo pero queda bien, eso si el h1... uf**/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  padding-bottom: 40PX;
+}
+
+.Informarse h1 {
+  margin: 0%;
+  color: rgb(163, 52, 18); /**Ese fondo y esto se llevan muy mal, por ello le voy a bajar la transparencia al fondo, que no quiero que de repente h1 sea gris o rosa o a saber**/
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.Informarse h2 {
+  margin: 0%;
+  color: rgb(182, 117, 55);
+  text-align: center;
+  padding: 40px;
+}
+
+.Informarse p {
   margin: 0%;
   color: white;
   text-align: center;
