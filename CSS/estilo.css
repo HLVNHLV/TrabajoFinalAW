@@ -175,11 +175,24 @@ p {
   text-shadow: 8px 8px 8px rgb(0, 0, 0)
 }
 
+/**Imágenes centradas**/
 .centrado {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+@media screen and (max-width: 1000px) { /**Esto se destroza un poquito al bajar, por eso lo pongo**/
+  .centrado {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .centrado {
+    width: 70%;
+  }
 }
 
 .VR img {
