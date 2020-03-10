@@ -7,8 +7,6 @@ Cosas que hacer:
 
 Correciones
 -Arreglar JS
--A veces en la zona de contacto se ve blanco (Aparentemente arreglado)
--Arreglar las tablas (70%)
 
 Añadidos
 -Agregar galería 
@@ -20,3 +18,8 @@ Contenido
 -Agregar Rift S
 -Agregar Pimax
 -Agregar Index
+
+Terminado
+-A veces en la zona de contacto se ve blanco (Aparentemente arreglado)
+-Arreglar las tablas
+-Arregladas las imagenes en los teléfonos
