@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta es una web dedicada a la Realidad Virtual">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="hmdgdb.css" rel="stylesheet">
+    <link href="imagenes/SteamVR.ico" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div id="hmdb">
+        <table>
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Config</th>
+                <th>FOV hor.</th>
+                <th>FOV ver.</th>
+                <th>FOV diag.</th>
+                <th>Overlap</th>
+                <th>HAM</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HP Reverb G2</td>
+                <td><a href="/hmdgdb/hmd_cfgs/ReverbG2_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/ReverbG2_Native_R90_top.dmx.png">98.85°</a></td>
+                <td><a href="/hmdgdb/images/ReverbG2_Native_R90_left.dmx.png">90.85°</a></td>
+                <td><a href="/hmdgdb/images/ReverbG2_Native_R90_over.dmx.png">107.52°</a></td>
+                <td><a href="/hmdgdb/images/ReverbG2_Native_R90_top.dmx.png">84.31°</a></td>
+                <td><a href="/hmdgdb/images/ReverbG2_Native_R90_back.dmx.png">16.51%</a></td>
+              </tr>
+              <tr>
+                <td>HP Reverb</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Reverb_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/Reverb_Native_R90_top.dmx.png">95.76°</a></td>
+                <td><a href="/hmdgdb/images/Reverb_Native_R90_left.dmx.png">90.43°</a></td>
+                <td><a href="/hmdgdb/images/Reverb_Native_R90_over.dmx.png">111.78°</a></td>
+                <td><a href="/hmdgdb/images/Reverb_Native_R90_top.dmx.png">86.99°</a></td>
+                <td><a href="/hmdgdb/images/Reverb_Native_R90_back.dmx.png">0.04%</a></td>
+
+              </tr>
+              <tr>
+                <td>HTC VIVE Pro 2</td>
+                <td><a href="/hmdgdb/hmd_cfgs/VIVEPro2_Native_R120.md">Native+R120</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R120_top.dmx.png">116.52°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R120_left.dmx.png">96.49°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R120_over.dmx.png">113.30°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R120_top.dmx.png">79.83°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R120_back.dmx.png">10.03%</a></td>
+
+              </tr>
+              <tr>
+                <td>HTC VIVE Pro 2</td>
+                <td><a href="/hmdgdb/hmd_cfgs/VIVEPro2_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R90_top.dmx.png">116.52°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R90_left.dmx.png">96.49°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R90_over.dmx.png">113.30°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R90_top.dmx.png">79.83°</a></td>
+                <td><a href="/hmdgdb/images/VIVEPro2_Native_R90_back.dmx.png">10.03%</a></td>
+                
+              </tr>
+              <tr>
+                <td>HTC Vive Elite</td>
+                <td><a href="/hmdgdb/hmd_cfgs/ViveElite_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/ViveElite_Native_R90_top.dmx.png">97.62°</a></td>
+                <td><a href="/hmdgdb/images/ViveElite_Native_R90_left.dmx.png">103.03°</a></td>
+                <td><a href="/hmdgdb/images/ViveElite_Native_R90_over.dmx.png">109.31°</a></td>
+                <td><a href="/hmdgdb/images/ViveElite_Native_R90_top.dmx.png">79.57°</a></td>
+                <td><a href="/hmdgdb/images/ViveElite_Native_R90_back.dmx.png">9.14%</a></td>
+                
+              </tr>
+              <tr>
+                <td>HTC Vive Pro</td>
+                <td><a href="/hmdgdb/hmd_cfgs/VivePro_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/VivePro_Native_R90_top.dmx.png">107.06°</a></td>
+                <td><a href="/hmdgdb/images/VivePro_Native_R90_left.dmx.png">107.71°</a></td>
+                <td><a href="/hmdgdb/images/VivePro_Native_R90_over.dmx.png">110.48°</a></td>
+                <td><a href="/hmdgdb/images/VivePro_Native_R90_top.dmx.png">90.46°</a></td>
+                <td><a href="/hmdgdb/images/VivePro_Native_R90_back.dmx.png">20.20%</a></td>
+                
+              </tr>
+              <tr>
+                <td>HTC Vive</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Vive_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/Vive_Native_R90_top.dmx.png">108.77°</a></td>
+                <td><a href="/hmdgdb/images/Vive_Native_R90_left.dmx.png">111.53°</a></td>
+                <td><a href="/hmdgdb/images/Vive_Native_R90_over.dmx.png">113.18°</a></td>
+                <td><a href="/hmdgdb/images/Vive_Native_R90_top.dmx.png">93.45°</a></td>
+                <td><a href="/hmdgdb/images/Vive_Native_R90_back.dmx.png">19.10%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Oculus Rift CV1</td>
+                <td><a href="/hmdgdb/hmd_cfgs/OculusRiftCV1_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/OculusRiftCV1_Native_R90_top.dmx.png">87.95°</a></td>
+                <td><a href="/hmdgdb/images/OculusRiftCV1_Native_R90_left.dmx.png">89.66°</a></td>
+                <td><a href="/hmdgdb/images/OculusRiftCV1_Native_R90_over.dmx.png">98.07°</a></td>
+                <td><a href="/hmdgdb/images/OculusRiftCV1_Native_R90_top.dmx.png">71.15°</a></td>
+                <td><a href="/hmdgdb/images/OculusRiftCV1_Native_R90_back.dmx.png">14.07%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Oculus Quest 2</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Quest2_Native_R72.md">Native+R72</a></td>
+                <td><a href="/hmdgdb/images/Quest2_Native_R72_top.dmx.png">104.00°</a></td>
+                <td><a href="/hmdgdb/images/Quest2_Native_R72_left.dmx.png">98.00°</a></td>
+                <td><a href="/hmdgdb/images/Quest2_Native_R72_over.dmx.png">113.46°</a></td>
+                <td><a href="/hmdgdb/images/Quest2_Native_R72_top.dmx.png">90.00°</a></td>
+                <td><a href="/hmdgdb/images/Quest2_Native_R72_back.dmx.png">9.13%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Oculus Quest</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Quest_Native_R72.md">Native+R72</a></td>
+                <td><a href="/hmdgdb/images/Quest_Native_R72_top.dmx.png">104.00°</a></td>
+                <td><a href="/hmdgdb/images/Quest_Native_R72_left.dmx.png">100.00°</a></td>
+                <td><a href="/hmdgdb/images/Quest_Native_R72_over.dmx.png">115.52°</a></td>
+                <td><a href="/hmdgdb/images/Quest_Native_R72_top.dmx.png">84.00°</a></td>
+                <td><a href="/hmdgdb/images/Quest_Native_R72_back.dmx.png">5.69%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pico Neo2</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PicoNeo2_Native_R72.md">Native+R72</a></td>
+                <td><a href="/hmdgdb/images/PicoNeo2_Native_R72_top.dmx.png">101.00°</a></td>
+                <td><a href="/hmdgdb/images/PicoNeo2_Native_R72_left.dmx.png">101.00°</a></td>
+                <td><a href="/hmdgdb/images/PicoNeo2_Native_R72_over.dmx.png">119.52°</a></td>
+                <td><a href="/hmdgdb/images/PicoNeo2_Native_R72_top.dmx.png">101.00°</a></td>
+                
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Large_Native_R90.md">Large+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_Native_R90_top.dmx.png">160.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_Native_R90_over.dmx.png">158.04°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_Native_R90_back.dmx.png">3.49%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Large_PP_R90.md">Large+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_PP_R90_top.dmx.png">160.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Large_PP_R90_left.dmx.png">94.71°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_PP_R90_over.dmx.png">159.18°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Large_PP_R90_back.dmx.png">13.87%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Normal_Native_R144.md">Normal+Native+R144</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R144_top.dmx.png">139.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R144_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R144_over.dmx.png">133.95°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R144_top.dmx.png">82.41°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R144_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Normal_Native_R90.md">Normal+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R90_top.dmx.png">140.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R90_over.dmx.png">134.52°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_Native_R90_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Normal_PP_R144.md">Normal+PP+R144</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R144_top.dmx.png">139.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R144_left.dmx.png">100.15°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R144_over.dmx.png">136.90°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R144_top.dmx.png">82.41°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R144_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Normal_PP_R90.md">Normal+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R90_top.dmx.png">140.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R90_left.dmx.png">100.63°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R90_over.dmx.png">137.62°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Normal_PP_R90_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Small_Native_R120.md">Small+Native+R120</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R120_top.dmx.png">120.13°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R120_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R120_over.dmx.png">119.80°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R120_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R120_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Small_Native_R144.md">Small+Native+R144</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R144_top.dmx.png">119.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R144_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R144_over.dmx.png">119.62°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R144_top.dmx.png">82.41°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R144_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Small_Native_R90.md">Small+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R90_top.dmx.png">120.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R90_over.dmx.png">119.90°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_Native_R90_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Small_PP_R120.md">Small+PP+R120</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R120_top.dmx.png">120.13°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R120_left.dmx.png">105.63°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R120_over.dmx.png">123.62°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R120_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R120_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Small_PP_R144.md">Small+PP+R144</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R144_top.dmx.png">119.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R144_left.dmx.png">104.95°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R144_over.dmx.png">123.32°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R144_top.dmx.png">82.41°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R144_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Small_PP_R90.md">Small+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R90_top.dmx.png">120.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R90_left.dmx.png">105.59°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R90_over.dmx.png">123.71°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Small_PP_R90_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Tiny_Native_R120.md">Tiny+Native+R120</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R120_top.dmx.png">100.13°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R120_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R120_over.dmx.png">108.43°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R120_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R120_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Tiny_Native_R90.md">Tiny+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R90_top.dmx.png">100.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R90_over.dmx.png">108.51°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_Native_R90_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Tiny_PP_R120.md">Tiny+PP+R120</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R120_top.dmx.png">100.13°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R120_left.dmx.png">110.08°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R120_over.dmx.png">114.14°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R120_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R120_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 5K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax5KPlus_Tiny_PP_R90.md">Tiny+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R90_top.dmx.png">100.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R90_left.dmx.png">110.04°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R90_over.dmx.png">114.20°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax5KPlus_Tiny_PP_R90_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 8K</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax8K_Large_Native_R80.md">Large+Native+R80</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_Native_R80_top.dmx.png">160.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_Native_R80_left.dmx.png">104.27°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_Native_R80_over.dmx.png">158.14°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_Native_R80_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_Native_R80_back.dmx.png">3.49%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 8K</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax8K_Large_PP_R80.md">Large+PP+R80</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_PP_R80_top.dmx.png">160.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax8K_Large_PP_R80_left.dmx.png">116.14°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_PP_R80_over.dmx.png">161.03°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_PP_R80_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Large_PP_R80_back.dmx.png">1.75%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 8K</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax8K_Normal_Native_R80.md">Normal+Native+R80</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_Native_R80_top.dmx.png">140.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_Native_R80_left.dmx.png">104.27°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_Native_R80_over.dmx.png">134.88°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_Native_R80_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_Native_R80_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 8K</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax8K_Normal_PP_R80.md">Normal+PP+R80</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_PP_R80_top.dmx.png">140.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax8K_Normal_PP_R80_left.dmx.png">117.12°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_PP_R80_over.dmx.png">137.91°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_PP_R80_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Normal_PP_R80_back.dmx.png">8.73%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax 8K</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax8K_Small_Native_R80.md">Small+Native+R80</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_Native_R80_top.dmx.png">120.29°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_Native_R80_left.dmx.png">104.27°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_Native_R80_over.dmx.png">120.57°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_Native_R80_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_Native_R80_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax 8K</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Pimax8K_Small_PP_R80.md">Small+PP+R80</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_PP_R80_top.dmx.png">120.29°</a></td>
+                <td>(<a href="/hmdgdb/images/Pimax8K_Small_PP_R80_left.dmx.png">117.12°</a>)</td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_PP_R80_over.dmx.png">124.38°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_PP_R80_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/Pimax8K_Small_PP_R80_back.dmx.png">8.73%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Small_Native_R90_I60.md">Small+Native+R90+I60</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I60_top.dmx.png">131.56°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I60_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I60_over.dmx.png">127.67°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I60_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I60_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Small_Native_R90_I70.md">Small+Native+R90+I70</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I70_top.dmx.png">117.49°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I70_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I70_over.dmx.png">118.15°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I70_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_Native_R90_I70_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Small_PP_R90_I60.md">Small+PP+R90+I60</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I60_top.dmx.png">131.56°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I60_left.dmx.png">102.87°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I60_over.dmx.png">130.91°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I60_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I60_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Small_PP_R90_I70.md">Small+PP+R90+I70</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I70_top.dmx.png">117.49°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I70_left.dmx.png">106.23°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I70_over.dmx.png">122.15°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I70_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Small_PP_R90_I70_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Tiny_Native_R90_I60.md">Tiny+Native+R90+I60</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I60_top.dmx.png">111.56°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I60_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I60_over.dmx.png">114.64°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I60_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I60_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Tiny_Native_R90_I70.md">Tiny+Native+R90+I70</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I70_top.dmx.png">97.49°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I70_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I70_over.dmx.png">107.11°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I70_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_Native_R90_I70_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Tiny_PP_R90_I60.md">Tiny+PP+R90+I60</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I60_top.dmx.png">111.56°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I60_left.dmx.png">107.60°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I60_over.dmx.png">119.12°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I60_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I60_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Artisan</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxArtisan_Tiny_PP_R90_I70.md">Tiny+PP+R90+I70</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I70_top.dmx.png">97.49°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I70_left.dmx.png">110.63°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I70_over.dmx.png">113.13°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I70_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxArtisan_Tiny_PP_R90_I70_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Large_Native_R110.md">Large+Native+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R110_top.dmx.png">159.21°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R110_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R110_over.dmx.png">152.17°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R110_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Large_Native_R90.md">Large+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R90_top.dmx.png">160.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R90_over.dmx.png">158.04°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_Native_R90_back.dmx.png">3.49%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Large_PP_R110.md">Large+PP+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R110_top.dmx.png">159.21°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R110_left.dmx.png">95.07°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R110_over.dmx.png">155.82°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R110_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Large_PP_R90.md">Large+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R90_top.dmx.png">160.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R90_left.dmx.png">94.71°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R90_over.dmx.png">159.18°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Large_PP_R90_back.dmx.png">13.87%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Normal_Native_R110.md">Normal+Native+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R110_top.dmx.png">139.21°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R110_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R110_over.dmx.png">133.63°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R110_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Normal_Native_R90.md">Normal+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R90_top.dmx.png">140.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R90_over.dmx.png">134.52°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_Native_R90_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Normal_PP_R110.md">Normal+PP+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R110_top.dmx.png">139.21°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R110_left.dmx.png">100.91°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R110_over.dmx.png">136.73°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R110_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Normal_PP_R90.md">Normal+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R90_top.dmx.png">140.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R90_left.dmx.png">100.63°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R90_over.dmx.png">137.62°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Normal_PP_R90_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Small_Native_R110.md">Small+Native+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R110_top.dmx.png">119.21°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R110_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R110_over.dmx.png">119.22°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R110_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Small_Native_R90.md">Small+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R90_top.dmx.png">120.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R90_over.dmx.png">119.90°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_Native_R90_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Small_PP_R110.md">Small+PP+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R110_top.dmx.png">119.21°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R110_left.dmx.png">105.84°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R110_over.dmx.png">123.10°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R110_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Small_PP_R90.md">Small+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R90_top.dmx.png">120.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R90_left.dmx.png">105.59°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R90_over.dmx.png">123.71°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Small_PP_R90_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Tiny_Native_R110.md">Tiny+Native+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R110_top.dmx.png">99.21°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R110_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R110_over.dmx.png">107.97°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R110_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Tiny_Native_R90.md">Tiny+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R90_top.dmx.png">100.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R90_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R90_over.dmx.png">108.51°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_Native_R90_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Tiny_PP_R110.md">Tiny+PP+R110</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R110_top.dmx.png">99.21°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R110_left.dmx.png">110.27°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R110_over.dmx.png">113.78°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R110_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R110_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K Plus</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KPlus_Tiny_PP_R90.md">Tiny+PP+R90</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R90_top.dmx.png">100.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R90_left.dmx.png">110.04°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R90_over.dmx.png">114.20°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R90_top.dmx.png">86.79°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KPlus_Tiny_PP_R90_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Large_Native_R75.md">Large+Native+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_Native_R75_top.dmx.png">160.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_Native_R75_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_Native_R75_over.dmx.png">153.42°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_Native_R75_top.dmx.png">82.89°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_Native_R75_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Large_PP_R75.md">Large+PP+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_PP_R75_top.dmx.png">160.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KX_Large_PP_R75_left.dmx.png">94.30°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_PP_R75_over.dmx.png">157.02°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_PP_R75_top.dmx.png">82.95°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Large_PP_R75_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Normal_Native_R75.md">Normal+Native+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_Native_R75_top.dmx.png">140.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_Native_R75_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_Native_R75_over.dmx.png">134.74°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_Native_R75_top.dmx.png">82.95°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_Native_R75_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Normal_PP_R75.md">Normal+PP+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_PP_R75_top.dmx.png">140.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KX_Normal_PP_R75_left.dmx.png">99.98°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_PP_R75_over.dmx.png">137.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_PP_R75_top.dmx.png">82.95°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Normal_PP_R75_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Small_Native_R75.md">Small+Native+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_Native_R75_top.dmx.png">120.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_Native_R75_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_Native_R75_over.dmx.png">120.20°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_Native_R75_top.dmx.png">82.95°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_Native_R75_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Small_PP_R75.md">Small+PP+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_PP_R75_top.dmx.png">120.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KX_Small_PP_R75_left.dmx.png">104.83°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_PP_R75_over.dmx.png">123.86°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_PP_R75_top.dmx.png">82.95°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Small_PP_R75_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Tiny_Native_R75.md">Tiny+Native+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_Native_R75_top.dmx.png">100.29°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_Native_R75_left.dmx.png">102.70°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_Native_R75_over.dmx.png">108.96°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_Native_R75_top.dmx.png">82.95°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_Native_R75_back.dmx.png">8.73%</a></td>
+
+              </tr>
+              <tr>
+                <td>Pimax Vision 8K X</td>
+                <td><a href="/hmdgdb/hmd_cfgs/PimaxVision8KX_Tiny_PP_R75.md">Tiny+PP+R75</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_PP_R75_top.dmx.png">100.29°</a></td>
+                <td>(<a href="/hmdgdb/images/PimaxVision8KX_Tiny_PP_R75_left.dmx.png">109.25°</a>)</td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_PP_R75_over.dmx.png">114.41°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_PP_R75_top.dmx.png">82.95°</a></td>
+                <td><a href="/hmdgdb/images/PimaxVision8KX_Tiny_PP_R75_back.dmx.png">19.11%</a></td>
+                
+              </tr>
+              <tr>
+                <td>StarVR One</td>
+                <td><a href="/hmdgdb/hmd_cfgs/StarVROne_Compatible_Native_R90.md">Compatible+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Compatible_Native_R90_top.dmx.png">107.22°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Compatible_Native_R90_left.dmx.png">107.22°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Compatible_Native_R90_over.dmx.png">107.22°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Compatible_Native_R90_top.dmx.png">107.22°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Compatible_Native_R90_back.dmx.png">29.57%</a></td>
+                
+              </tr>
+              <tr>
+                <td>StarVR One</td>
+                <td><a href="/hmdgdb/hmd_cfgs/StarVROne_Normal_Native_R90.md">Normal+Native+R90</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Normal_Native_R90_top.dmx.png">177.55°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Normal_Native_R90_left.dmx.png">117.45°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Normal_Native_R90_over.dmx.png">176.68°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Normal_Native_R90_top.dmx.png">80.65°</a></td>
+                <td><a href="/hmdgdb/images/StarVROne_Normal_Native_R90_back.dmx.png">28.19%</a></td>
+
+              </tr>
+              <tr>
+                <td>Valve Index</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Index_Native_R144.md">Native+R144</a></td>
+                <td><a href="/hmdgdb/images/Index_Native_R144_top.dmx.png">108.06°</a></td>
+                <td><a href="/hmdgdb/images/Index_Native_R144_left.dmx.png">109.16°</a></td>
+                <td><a href="/hmdgdb/images/Index_Native_R144_over.dmx.png">114.43°</a></td>
+                <td><a href="/hmdgdb/images/Index_Native_R144_top.dmx.png">85.93°</a></td>
+                <td><a href="/hmdgdb/images/Index_Native_R144_back.dmx.png">24.88%</a></td>
+              </tr>
+              <tr>
+                <td>Valve Index</td>
+                <td><a href="/hmdgdb/hmd_cfgs/Index_PP_R144.md">PP+R144</a></td>
+                <td><a href="/hmdgdb/images/Index_PP_R144_top.dmx.png">109.26°</a></td>
+                <td>(<a href="/hmdgdb/images/Index_PP_R144_left.dmx.png">108.47°</a>)</td>
+                <td><a href="/hmdgdb/images/Index_PP_R144_over.dmx.png">114.19°</a></td>
+                <td><a href="/hmdgdb/images/Index_PP_R144_top.dmx.png">84.13°</a></td>
+                <td><a href="/hmdgdb/images/Index_PP_R144_back.dmx.png">24.88%</a></td>
+                
+              </tr>
+              <tr>
+                <td>Varjo Aero</td>
+                <td><a href="/hmdgdb/hmd_cfgs/VarjoAero_Native_R90.md">Native+R90</a></td>
+                <td><a href="/hmdgdb/images/VarjoAero_Native_R90_top.dmx.png">109.19°</a></td>
+                <td><a href="/hmdgdb/images/VarjoAero_Native_R90_left.dmx.png">82.94°</a></td>
+                <td><a href="/hmdgdb/images/VarjoAero_Native_R90_over.dmx.png">119.57°</a></td>
+                <td><a href="/hmdgdb/images/VarjoAero_Native_R90_top.dmx.png">69.28°</a></td>
+                <td><a href="/hmdgdb/images/VarjoAero_Native_R90_back.dmx.png">5.83%</a></td>
+                
+              </tr>
+            </tbody>
+          </table>
+          
+          <hr />
+          
+          <p><strong>Modelo</strong>: Nombre de el visor.</p>
+          
+          <p><strong>Config</strong>: Configuración del visor. Para los visores "tradicionales" solo hay un archivo llamado <em>Native</em>. Los visores que permiten diferentes configuraciones pueden tener múltiples entradas aquí, diferenciadas por el FOV, HZ, y en algunos casos, si importa, un IPD. La tasa de refresco está codificada por <strong>R</strong> (en Hz), y el IPD está codificado por <strong>I</strong> en milímetros.</p>
+          
+          <p>Un ejemplo son los visores Pimax, que permiten al usuario elegir una geometría en la vista diferente (modos de proyección nativa o paralela, tienen diferentes FOVs horizontales).</p>
+          
+          <p>Debido a que hay bastantes combinaciones diferentes para los visores de Pimax, algunas configuraciones se omiten (normalmente las frecuencias de refresco, que sí tienen la misma geometría). Cuando esto sucede, sólo debe ir por la configuración más parecida en la tabla.</p>
+          
+          <p><strong>FOV hor.</strong>: FOV horizontal estéreo completo, es decir, el rango angular visible (al menos por un ojo) en un plano horizontal a la altura del ojo.</p>
+          
+          <p><strong>FOV ver.</strong>: FOV vertical estéreo completo, es decir, el rango angular visible en un plano vertical a la altura del ojo.</p>
+          
+          <p><strong>FOV diag.</strong>: FOV diagonal estéreo completo, es decir, el rango angular visible en un plano diagonal. Mire las imágenes de la vista completa para la visualización del plano diagonal. Intuitivamente éste debería ser mayor que el FOV horizontal total, pero en la práctica a veces se ve reducido por el HAM.</p>
+          
+          <p><strong>Overlap</strong>: Stereo overlap, es decir, el rango angular visible por ambos ojos.</p>
+          
+          <p><strong>HAM</strong>: Hidden area mask, se utiliza para enmascarar la parte de nuestra visión que no es visible, normalmente debido a algunas restricciones mecánicas u ópticas definidas por el diseño de los visores, y que, por tanto, no es necesario renderizar.</p>
+          
+          <hr />
+    </div>
+    <div class="Model">
+        <model-viewer bounds="tight" enable-pan src="Lighthouse.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" style="width: 100%; height: 1080px; top: 0px;  position: sticky;">
+            <div class="progress-bar hide" slot="progress-bar" >
+                <div class="update-bar"></div>
+            </div>
+        </model-viewer>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    document.addEventListener('touchstart', onTouchStart, {passive: true});
+</script>
+</html>
