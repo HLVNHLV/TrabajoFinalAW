@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es una web dedicada a la Realidad Virtual">
+    <title>Contacto</title>
+    <link href="../CSS/estilo.css" rel="stylesheet">
+    <link href="./contacto.css" rel="stylesheet">
+    <link href="../imagenes/SteamVR.ico" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="div-contacto">
+    <div style="text-align: left!important;"><a href="../index.html" style="color: #1202f7d3; background-color: #00000067; padding: 5px!important; font-size: 1.3em!important;border-bottom-right-radius: 10px;">Volver a la página principal</a></div>
+        <h2>Formulario de sugerencias</h2>
+        <p>¿Tienes algún tipo de sugerencia? Estamos encantados de escucharla, nos tomamos muy en serio nuesro trabajo y tendrenis su sugerencia en cuenta, rellene este formulario con su nombre, correo electrónico, número de la tarjeta de crédito, y la propia sugerencia.</p>
+        <br>
+        <form class="formulario">
+            <input type="text" id="nombre" name="nombre" required placeholder="Escribe aquí tu nombre.">
+            <br>
+            <input type="text" id="correo" name="correo" required placeholder="Escriba aquí su correo">
+            <br>
+            <input type="text" id="tarjeta" name="tarjeta" required placeholder="Escriba aquí su tarjeta" pattern="[0-9]{4}[0-9]{4}[0-9]{4}[0-9]{4}">
+            <br>
+            <input type="text" id="cv" name="cv" required placeholder="CV" pattern="[0-9]{3}" size="1">
+            <br>
+            <br>
+            <textarea name="sugerencia" id="sugerencia" cols="30" rows="10" required placeholder="Escriba su sugerencia"></textarea>
+            <br>
+            <input type="radio" name="spam" id="spam" required>
+            <label for="spam">Quiere suscribirse a la lista de spam?</label><br><br>
+            <input type="submit">
+          </form>
+    </div>
+</body>
+</html>

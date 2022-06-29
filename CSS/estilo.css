@@ -43,7 +43,7 @@ h1 {
   margin: 0px!important;
 }
 
-h2 {
+h2, #contacto {
   font-family: 'Oswald', sans-serif;
   font-size: 170%;
   margin: 0%;
