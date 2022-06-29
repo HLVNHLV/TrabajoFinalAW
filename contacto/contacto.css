@@ -20,3 +20,20 @@ input, textarea {
     border-radius: 5px;
     border: 0px;
 }
+input:hover, textarea:hover {
+    background-color: rgb(212, 212, 255);
+    border-radius: 1px;
+}
+a {
+    color: #1202f7d3!important;
+    background-color: #00000067!important;
+    padding: 5px!important;
+    font-size: 1.3em!important;
+    border-bottom-right-radius: 10px!important;
+}
+a:hover {
+    color: white!important;
+}
+#volver {
+    text-align: left!important;
+}
