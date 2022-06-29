@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="hmdgdb.css" rel="stylesheet">
-    <link href="imagenes/SteamVR.ico" rel="icon">
+    <link href="../imagenes/SteamVR.ico" rel="icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
@@ -15,9 +15,25 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
     <div id="hmdb">
+        <h1>HMDGDB</h1>
+        <p>Esta es una base de datos de la geometría de los diferentes visores de realidad virtual, es decir, el FOV (field of view, campo de visión) tanto horizontales, como diagonales y verticales, además de el Stereo Overlap, y el HAM (Hidden area mask, máscara de area oculta).</p>
+        <p>Todos estos datos han sido extraidos desde la base de datos de Risa2000, <a href="https://github.com/risa2000/hmdq"></a>HMD Geometry Database</p>
+        <p>Además, abajo podrás encontrar unos modelos 3D de unos mandos</p>
+        <br>
+        <p>Lo que significan estos valores es: </p>
+        <br>
+        <p class="minih2">FOV</p>
+        <br>
+        <P>El fov es el campo de visión que podemos ver en un visor, imagínate que estás usando unas gafas, estas no cubren toda tu vista, solo la parte frontal, pues con los visores pasa algo similar, solo ves cierta cantidad, estos valores son extraidos de el driver para SteamVR, ya que este tiene que especificar qué zonas renderizar y cuáles no.</P>
+        <br>
+        <p class="minih2">Stereo Overlap</p>
+        <br>
+        <p>El stere overlap, es la parte de el FOV que es visible para ambos ojos, este valor es muuuy importante, a mayor Stere overlap, mayor sensacion de inmersión tendremos, si por el contrario tenemos muy poco, la imagen resultará extraña y podrá llegar hasta a cansar la vista</p>
+        <br>
+        <p class="minih2">Hidden Area Mask</p>
+        <br>
+        <p>El hidden area mask, es el área de de la pantalla que no es visible debido a las lentes, estas son redondas, pero la pantalla es cuadrada, los bordes no se acabarían viendo nunca y acabaríamos perdiendo rendimiento al tener que renderizar elementos que jamás podremos ver, el HAM, lo que hace es decirle a SteamVR, y al motor del juego, que no renderize las partes de la imagen dentro de este, así ganamos alrededor de un 15% de rendimiento</p>
         <table>
             <thead>
               <tr>
@@ -731,28 +747,6 @@
               </tr>
             </tbody>
           </table>
-          
-          <hr />
-          
-          <p><strong>Modelo</strong>: Nombre de el visor.</p>
-          
-          <p><strong>Config</strong>: Configuración del visor. Para los visores "tradicionales" solo hay un archivo llamado <em>Native</em>. Los visores que permiten diferentes configuraciones pueden tener múltiples entradas aquí, diferenciadas por el FOV, HZ, y en algunos casos, si importa, un IPD. La tasa de refresco está codificada por <strong>R</strong> (en Hz), y el IPD está codificado por <strong>I</strong> en milímetros.</p>
-          
-          <p>Un ejemplo son los visores Pimax, que permiten al usuario elegir una geometría en la vista diferente (modos de proyección nativa o paralela, tienen diferentes FOVs horizontales).</p>
-          
-          <p>Debido a que hay bastantes combinaciones diferentes para los visores de Pimax, algunas configuraciones se omiten (normalmente las frecuencias de refresco, que sí tienen la misma geometría). Cuando esto sucede, sólo debe ir por la configuración más parecida en la tabla.</p>
-          
-          <p><strong>FOV hor.</strong>: FOV horizontal estéreo completo, es decir, el rango angular visible (al menos por un ojo) en un plano horizontal a la altura del ojo.</p>
-          
-          <p><strong>FOV ver.</strong>: FOV vertical estéreo completo, es decir, el rango angular visible en un plano vertical a la altura del ojo.</p>
-          
-          <p><strong>FOV diag.</strong>: FOV diagonal estéreo completo, es decir, el rango angular visible en un plano diagonal. Mire las imágenes de la vista completa para la visualización del plano diagonal. Intuitivamente éste debería ser mayor que el FOV horizontal total, pero en la práctica a veces se ve reducido por el HAM.</p>
-          
-          <p><strong>Overlap</strong>: Stereo overlap, es decir, el rango angular visible por ambos ojos.</p>
-          
-          <p><strong>HAM</strong>: Hidden area mask, se utiliza para enmascarar la parte de nuestra visión que no es visible, normalmente debido a algunas restricciones mecánicas u ópticas definidas por el diseño de los visores, y que, por tanto, no es necesario renderizar.</p>
-          
-          <hr />
     </div>
     <div class="Model">
         <model-viewer bounds="tight" enable-pan src="Lighthouse.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" style="width: 100%; height: 1080px; top: 0px;  position: sticky;">
