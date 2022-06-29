@@ -32,6 +32,7 @@ p {
     padding-bottom: 40px;
     font-size: larger;
     margin: 0px!important;
+    text-shadow: 8px 8px 8px rgb(0, 0, 0);
   }
   
   h2 {

@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
   background-color: #f53932;
 }
+* {
+  scroll-behavior: smooth;
+  transition: all 250ms linear;
+}
 /******************* "HERO IMAGE" *******************/
 body, html {
   height: 100%;
@@ -35,9 +39,7 @@ h1 {
   color: #f53932;
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 40px;
-  padding-top: 120px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   margin: 0px!important;
 }
 
@@ -154,11 +156,14 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 940px) {
   .MyBarrita a:not(:first-child) {display: none;}
   .MyBarrita a.icon {
     float: right;
     display: block;
+  }
+  .MyBarrita a {
+    background-color: #20202094;
   }
 }
   .MyBarrita.responsive {position: fixed;}
@@ -242,6 +247,10 @@ img {
   background-size: cover;
   position: relative;
   background-attachment: fixed;
+}
+
+footer #contacto:hover {
+  color: #1302f7;
 }
 
 /**Dónde informarse?**/
