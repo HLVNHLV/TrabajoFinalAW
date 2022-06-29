@@ -1,7 +1,7 @@
 model-viewer{
     background: rgb(245,57,50);
     background-color: rgb(245,57,50);
-    background: radial-gradient(circle, rgba(245,57,50,1) 0%, rgba(0,0,0,1) 75%);
+    background: radial-gradient(circle, rgba(245,57,50,1) 0%, rgba(0,0,0,1) 50%);
     }
 * {
     scroll-behavior: smooth;
