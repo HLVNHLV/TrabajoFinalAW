@@ -125,7 +125,7 @@ img {
 /******************* LaBarritaDeArriba *******************/
 .MyBarrita {
   overflow: hidden;
-  background-color: rgba(32, 32, 32, 0.411);
+  background-color: rgba(32, 32, 32, 0.65);
   position: fixed;
   top: 0;
   width: 100%;
@@ -163,7 +163,7 @@ img {
     display: block;
   }
   .MyBarrita a {
-    background-color: #20202094;
+    background-color: rgba(32, 32, 32, 0.58);
   }
 }
   .MyBarrita.responsive {position: fixed;}
